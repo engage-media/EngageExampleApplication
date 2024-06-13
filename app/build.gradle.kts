@@ -54,8 +54,6 @@ dependencies {
 
 
     implementation(libs.androidx.appcompat)
-    // add transitive=true to include all dependencies
-//    implementation(files("libs/EMAdSdk-release.aar"))
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -65,7 +63,6 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.media3.ui)
-//    implementation(project(":EMAdSdk"))
     implementation(libs.androidx.media3.common)
     implementation(libs.androidx.media3.exoplayer)
     testImplementation(libs.junit)
@@ -75,20 +72,5 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-    implementation("com.github.engage-media:EMAdsSDK:SNAPSHOT")
-    // Import Exoplayer
-//    implementation(libs.androidx.media3.ui)
-//    implementation(libs.androidx.media3.exoplayer)
-//    implementation(libs.androidx.media3.exoplayer.ima)
-//
-//    // Lifecycle
-//    implementation(libs.androidx.lifecycle.runtime.ktx)
-//    implementation(libs.androidx.lifecycle.common.java8)
-//
-//    // IMA SDK
-//    implementation(libs.interactivemedia)
-//
-//    implementation(libs.simple.xml)
-//
-//    implementation(libs.okhttp)
+//    implementation("com.github.engage-media:EngageExampleApplication:1.0.2")
 }

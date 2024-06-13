@@ -1,6 +1,6 @@
 package com.engage.em_ads_sdk.parser
 
-import com.engage.emadsdk.network.VASTResponse
+import com.engage.em_ads_sdk.network.VASTResponse
 import org.simpleframework.xml.Serializer
 import org.simpleframework.xml.core.Persister
 import java.io.StringReader
