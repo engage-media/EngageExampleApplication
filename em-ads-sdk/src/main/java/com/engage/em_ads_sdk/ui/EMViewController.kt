@@ -2,12 +2,12 @@ package com.engage.em_ads_sdk.ui
 
 import android.content.Context
 import androidx.media3.common.util.UnstableApi
-import com.engage.emadsdk.EMAdRequester
-import com.engage.emadsdk.EMVideoPlayerListener
-import com.engage.emadsdk.data.EMVASTAd
-import com.engage.emadsdk.data.EMVASTMidrollAd
-import com.engage.emadsdk.ima.AdRequesterImpl
-import com.engage.emadsdk.network.AdNetworkService
+import com.engage.em_ads_sdk.EMAdRequester
+import com.engage.em_ads_sdk.EMVideoPlayerListener
+import com.engage.em_ads_sdk.data.EMVASTAd
+import com.engage.em_ads_sdk.data.EMVASTMidrollAd
+import com.engage.em_ads_sdk.ima.AdRequesterImpl
+import com.engage.em_ads_sdk.network.AdNetworkService
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

@@ -9,10 +9,10 @@ import androidx.media3.exoplayer.ima.ImaAdsLoader
 import androidx.media3.exoplayer.source.DefaultMediaSourceFactory
 import androidx.media3.exoplayer.source.ads.AdsMediaSource
 import androidx.media3.ui.PlayerView
-import com.engage.emadsdk.EMAdRequester
-import com.engage.emadsdk.data.EMAdMapper
-import com.engage.emadsdk.data.EMVASTAd
-import com.engage.emadsdk.network.AdNetworkService
+import com.engage.em_ads_sdk.EMAdRequester
+import com.engage.em_ads_sdk.data.EMAdMapper
+import com.engage.em_ads_sdk.data.EMVASTAd
+import com.engage.em_ads_sdk.network.AdNetworkService
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
