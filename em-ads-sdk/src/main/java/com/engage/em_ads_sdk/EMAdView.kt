@@ -9,9 +9,9 @@ import android.widget.ProgressBar
 import androidx.core.view.isVisible
 import androidx.media3.common.util.UnstableApi
 import androidx.media3.ui.PlayerView
-import com.engage.emadsdk.data.EMVASTAd
-import com.engage.emadsdk.ima.AdPlayerImpl
-import com.engage.emadsdk.ui.EMViewModel
+import com.engage.em_ads_sdk.data.EMVASTAd
+import com.engage.em_ads_sdk.ima.AdPlayerImpl
+import com.engage.em_ads_sdk.ui.EMViewModel
 import kotlinx.coroutines.launch
 
 @UnstableApi

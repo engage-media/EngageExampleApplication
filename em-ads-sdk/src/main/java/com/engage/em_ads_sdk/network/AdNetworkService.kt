@@ -4,7 +4,7 @@ import android.content.Context
 import android.os.Build
 import android.util.Log
 import androidx.annotation.WorkerThread
-import com.engage.emadsdk.parser.VASTParser
+import com.engage.em_ads_sdk.parser.VASTParser
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async

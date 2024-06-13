@@ -1,7 +1,7 @@
 package com.engage.em_ads_sdk.data
 
-import com.engage.emadsdk.network.MediaFile
-import com.engage.emadsdk.network.VASTResponse
+import com.engage.em_ads_sdk.network.VASTResponse
+import com.engage.em_ads_sdk.network.MediaFile
 import java.text.SimpleDateFormat
 
 class EMAdMapper {

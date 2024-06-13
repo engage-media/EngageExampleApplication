@@ -16,7 +16,7 @@ import androidx.compose.ui.viewinterop.AndroidView
 import androidx.media3.common.util.UnstableApi
 import androidx.media3.exoplayer.ExoPlayer
 import androidx.media3.ui.PlayerView
-import com.engage.emadsdk.*
+import com.engage.engageexampleapplication.*
 import com.engage.engageexampleapplication.ui.theme.EngageExampleApplicationTheme
 
 @UnstableApi
@@ -33,22 +33,22 @@ class MainActivity : ComponentActivity() {
                                 FrameLayout.LayoutParams.MATCH_PARENT,
                                 FrameLayout.LayoutParams.MATCH_PARENT
                             )
-                            val playerView = PlayerView(context).apply {
-                                layoutParams = FrameLayout.LayoutParams(
-                                    FrameLayout.LayoutParams.MATCH_PARENT,
-                                    FrameLayout.LayoutParams.MATCH_PARENT
-                                )
-                            }
-                            playerView.player = ExoPlayer.Builder(context)
-                                .build()
-                            addView(playerView)
-                            addView(EMAdView(context).apply {
-                                layoutParams = FrameLayout.LayoutParams(
-                                    FrameLayout.LayoutParams.MATCH_PARENT,
-                                    FrameLayout.LayoutParams.MATCH_PARENT
-                                )
-                                setAdEventListener(DefaultVideoPlayerListener(playerView))
-                            })
+//                            val playerView = PlayerView(context).apply {
+//                                layoutParams = FrameLayout.LayoutParams(
+//                                    FrameLayout.LayoutParams.MATCH_PARENT,
+//                                    FrameLayout.LayoutParams.MATCH_PARENT
+//                                )
+//                            }
+//                            playerView.player = ExoPlayer.Builder(context)
+//                                .build()
+//                            addView(playerView)
+//                            addView(EMAdView(context).apply {
+//                                layoutParams = FrameLayout.LayoutParams(
+//                                    FrameLayout.LayoutParams.MATCH_PARENT,
+//                                    FrameLayout.LayoutParams.MATCH_PARENT
+//                                )
+//                                setAdEventListener(DefaultVideoPlayerListener(playerView))
+//                            })
                         }
 
                     }, modifier = Modifier.padding(innerPadding))
