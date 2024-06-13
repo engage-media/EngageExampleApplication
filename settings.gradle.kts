@@ -26,5 +26,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "EngageExampleApplication"
 include(":app")
-include(":EngageAdsSdk")
-include(":EMAdSdk")
+include(":em-ads-sdk")
