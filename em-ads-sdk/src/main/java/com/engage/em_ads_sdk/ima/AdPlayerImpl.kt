@@ -21,10 +21,10 @@ import androidx.media3.exoplayer.source.MediaSource
 import androidx.media3.exoplayer.source.ads.AdsLoader
 import androidx.media3.exoplayer.source.ads.AdsMediaSource
 import androidx.media3.ui.PlayerView
-import com.engage.emadsdk.EMAdPlayer
-import com.engage.emadsdk.EMContentPlaybackListener
-import com.engage.emadsdk.data.EMVASTAd
-import com.engage.emadsdk.network.AdNetworkService
+import com.engage.em_ads_sdk.EMAdPlayer
+import com.engage.em_ads_sdk.EMContentPlaybackListener
+import com.engage.em_ads_sdk.data.EMVASTAd
+import com.engage.em_ads_sdk.network.AdNetworkService
 
 internal class AdPlayerImpl(
     context: Context,
